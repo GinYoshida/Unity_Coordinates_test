@@ -10,6 +10,7 @@ public class Extrinsic_ZYX : MonoBehaviour
         transform.Rotate(0, 0, AngleSet.Rz, Space.World);
         transform.Rotate(AngleSet.Rx, 0, 0, Space.World);
         transform.Rotate(0, AngleSet.Ry, 0, Space.World);
+        Debug.Log(" Extrinsic_ZYX: Orientation: " + gameObject.transform.rotation);
     }
 
     // Update is called once per frame

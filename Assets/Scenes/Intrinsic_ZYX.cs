@@ -10,6 +10,7 @@ public class Intrinsic_ZYX : MonoBehaviour
         transform.Rotate(0, 0, AngleSet.Rz, Space.Self);
         transform.Rotate(AngleSet.Rx, 0, 0, Space.Self);
         transform.Rotate(0, AngleSet.Ry, 0, Space.Self);
+        Debug.Log(" Intrinsic_ZYX: Orientation: " + gameObject.transform.rotation);
     }
 
     // Update is called once per frame

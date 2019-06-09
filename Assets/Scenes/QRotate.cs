@@ -10,7 +10,7 @@ public class QRotate : MonoBehaviour
     void Start()
     {
         transform.rotation = Quaternion.Euler(AngleSet.Rx, AngleSet.Ry, AngleSet.Rz);
-
+        Debug.Log("Quaternion.Eular: Orientation: " + gameObject.transform.rotation);
     }
 
 
